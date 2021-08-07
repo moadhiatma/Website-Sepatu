@@ -1,0 +1,94 @@
+.wrap{
+	width: 900px;
+	margin: auto;
+}
+ 
+.wrap .header{
+	background: rgba(255, 255, 255, 0.95);
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	color: rgb(0, 0, 0);
+}
+
+.wrap .menu{
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+body {
+	background-image: url(568454.jpg);
+}
+
+.wrap .menu a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: rgba(0, 0, 0, 0.95);
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+ 
+.clear{
+	clear: both;
+}
+
+.badan{
+	width: auto;
+}
+ 
+.wrap .badan .sidebar{
+	margin-left: 5px;
+	background: rgba(255, 255, 255, 0.95);
+	float: right;	
+	width: 24%;
+	height: 875px;
+}
+
+.wrap .badan .sidebar a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+ 
+.wrap .badan .content{
+	background: rgba(255, 255, 255, 0.95);
+	float: left;
+	height: auto;
+	width: 75%;	
+	margin-bottom: 5px;
+}
+
+#image1{
+	width: 300px;
+	height: 150px;
+	padding: 0px 10px;
+}
+
+#image2{
+	width: 300px;
+	height: 300px;
+	padding: 0px 10px;
+}
+
+.wrap .badan .content p{
+	padding: 0px 10px;
+}
+ 
+.wrap .footer{
+	background: rgb(0, 0, 0, 0.95);
+	color: rgba(255, 255, 255);
+	width: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.titlepad{padding: 5px 10px;}
